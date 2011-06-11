@@ -1,0 +1,16 @@
+application: sf2gbot
+version: 1
+runtime: python
+api_version: 1
+
+inbound_services:
+- mail
+
+handlers:
+- url: /_ah/mail/bot@sf2gbot\.appspotmail\.com
+  script: handle_sf2g_email.py
+  login: admin
+  
+- url: /.*
+  script: main.py
+  login: admin
