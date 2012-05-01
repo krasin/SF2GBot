@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# Copyright 201 Pavel Krasilnikov (p.krasilnikov@gmail.com).
+# Copyright (c) 2012 Pavel Krasilnikov (p.krasilnikov@gmail.com).
 
 import logging, email
 from google.appengine.ext import webapp 
